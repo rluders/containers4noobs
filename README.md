@@ -31,6 +31,11 @@ Eu recomendaria no mínimo um i5 (ou equivalente) com pelo menos 8Gb de memória
 # Roadmap
 
 ## Introdução
+
+### O que são containers?
+@TODO
+
+### Docker vs LXC vs VM
 @TODO
 
 ## Como instalar?
@@ -39,7 +44,12 @@ Eu recomendaria no mínimo um i5 (ou equivalente) com pelo menos 8Gb de memória
 ## Usando containers
 @TODO
 
+## Orquestrando containers
+
 ### Kubernetes
+@TODO
+
+### Openshift
 @TODO
 
 ### Docker Swarm
@@ -57,10 +67,16 @@ Eu recomendaria no mínimo um i5 (ou equivalente) com pelo menos 8Gb de memória
 - [Docker](https://www.docker.com/)
 - 👍 [Podman](https://podman.io/)
 
-## Cursos
+## Cursos completos
 
 - 🇺🇸 [Kubernetes Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4)
 
+## Vídeos
+
+- 🇧🇷 [O mínimo que você precisa saber sobre Docker](https://www.youtube.com/watch?v=ntbpIfS44Gw)
+- 🇧🇷 [Containers, Docker e Kubernetes com Giovanni Bassi](https://www.youtube.com/watch?v=wxLvvMxzc1Q)
+- 🇧🇷 [Containers // Dicionário do Programador](https://www.youtube.com/watch?v=-pUZBovqRcU)
+- 🇧🇷 [Afinal, o que é um container?](https://www.treinaweb.com.br/blog/afinal-o-que-e-um-container)
 
 # Como contribuir
 
