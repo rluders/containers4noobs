@@ -42,7 +42,7 @@ Eu recomendaria no mínimo um i5 (ou equivalente) com pelo menos 8Gb de memória
 ### Kubernetes
 @TODO
 
-### Docker Swarn
+### Docker Swarm
 @TODO
 
 # Recursos
