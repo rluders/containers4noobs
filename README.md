@@ -72,7 +72,9 @@ Vale lembrar que, apesar de bastante similar, um container não é uma máquina 
 ## Livros
 
 -  🇺🇸 [OpenShift for Developers, Second Edition](https://developers.redhat.com/e-books/openshift-for-developers)
-- 
+- 🇺🇸 [Containers Networking: From Docker to Kubernetes](https://www.nginx.com/resources/library/container-networking-docker-kubernetes/)
+- 🇧🇷 [Como criar aplicações modernas com containers Linux](https://www.redhat.com/pt-br/resources/building-modern-apps-with-containers-ebook)
+- 🇧🇷💰 [Contrainers com Docker: Do desenvolvimento à producação](https://www.amazon.com.br/Containers-com-Docker-desenvolvimento-produ%C3%A7%C3%A3o-ebook/dp/B019NJB50C)
 
 ## Ferramentas
 
