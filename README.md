@@ -1,11 +1,11 @@
 <p align="center">
-    <img src="https://rluders.github.io/containers4noobs/assets/header-4noobs.svg">
+    <img src="assets/header-4noobs.svg">
 </p>
 
 <h1 align="center">Containers4Noobs</h1>
 
 <p align="center">
-    <img src="https://rluders.github.io/containers4noobs/assets/containers.jpg">
+    <img src="assets/containers.jpg">
 </p>
 
 # Introdução
@@ -114,6 +114,6 @@ Não sabe usar Git? [Git4Noobs](https://github.com/DanielHe4rt/git4noobs)
 
 <p align="center">
   <a href="https://github.com/he4rt/4noobs" target="_blank">
-    <img src="https://rluders.github.io/containers4noobs/assets/footer-4noobs.svg" width="380">
+    <img src="assets/footer-4noobs.svg" width="380">
   </a>
 </p>
