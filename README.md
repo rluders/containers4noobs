@@ -71,9 +71,9 @@ Vale lembrar que, apesar de bastante similar, um container não é uma máquina 
 
 ## Livros
 
--  🇺🇸 [OpenShift for Developers, Second Edition](https://developers.redhat.com/e-books/openshift-for-developers)
+-  🇺🇸👍 [OpenShift for Developers, Second Edition](https://developers.redhat.com/e-books/openshift-for-developers)
 - 🇺🇸 [Containers Networking: From Docker to Kubernetes](https://www.nginx.com/resources/library/container-networking-docker-kubernetes/)
-- 🇧🇷 [Como criar aplicações modernas com containers Linux](https://www.redhat.com/pt-br/resources/building-modern-apps-with-containers-ebook)
+- 🇧🇷👍 [Como criar aplicações modernas com containers Linux](https://www.redhat.com/pt-br/resources/building-modern-apps-with-containers-ebook)
 - 🇧🇷💰 [Contrainers com Docker: Do desenvolvimento à producação](https://www.amazon.com.br/Containers-com-Docker-desenvolvimento-produ%C3%A7%C3%A3o-ebook/dp/B019NJB50C)
 
 ## Ferramentas
@@ -83,12 +83,12 @@ Vale lembrar que, apesar de bastante similar, um container não é uma máquina 
 
 ## Cursos completos
 
-- 🇺🇸 [Kubernetes Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4)
+- 🇺🇸👍 [Kubernetes Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=s_o8dwzRlu4)
 
 ## Vídeos
 
-- 🇧🇷 [O mínimo que você precisa saber sobre Docker](https://www.youtube.com/watch?v=ntbpIfS44Gw)
-- 🇧🇷 [Containers, Docker e Kubernetes com Giovanni Bassi](https://www.youtube.com/watch?v=wxLvvMxzc1Q)
+- 🇧🇷👍 [O mínimo que você precisa saber sobre Docker](https://www.youtube.com/watch?v=ntbpIfS44Gw)
+- 🇧🇷👍 [Containers, Docker e Kubernetes com Giovanni Bassi](https://www.youtube.com/watch?v=wxLvvMxzc1Q)
 - 🇧🇷 [Containers // Dicionário do Programador](https://www.youtube.com/watch?v=-pUZBovqRcU)
 - 🇧🇷 [Afinal, o que é um container?](https://www.treinaweb.com.br/blog/afinal-o-que-e-um-container)
 
