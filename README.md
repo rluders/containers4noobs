@@ -33,9 +33,21 @@ Eu recomendaria no mínimo um i5 (ou equivalente) com pelo menos 8Gb de memória
 ## Introdução
 
 ### O que são containers?
+
+Container é uma tecnologia para criar um ambiente isolado para rodar serviços. Tentando ser o mais claro possível: é como se você tivesse distribuíndo junto com a sua aplicação/serviço todo o sistema configurado, necessário para que a aplicação seja executada sem muitos problemas. 
+
+Desta forma, isso também permite que esta aplicação seja facilmente movida de um contexto/servidor para outro, sem grandes problemas.
+
+Existem algumas pessoas que costumam chamar containers de Docker, e isso é equivocado, um container é um processo, enquanto o Docker é um serviço de container. Existem vários outros serviços para rodar containers, Docker é apenas um dos mais conhecidos.
+
+Cada container deve ter apenas uma responsabilidade, ou seja, executar apenas uma aplicação/serviço. Desta forma você consegue isolar ambientes e processos, garantido que não haja conflito entre dependências ou até mesmo mapeamento de portas, etc.
+
+Vale lembrar que, apesar de bastante similar, um container não é uma máquina virtual (VM), inclusive, você pode rodar containers dentro de uma VM.
+
+### Qual a diferença de Container e Máquina Virtual (VM)?
 @TODO
 
-### Docker vs LXC vs VM
+### Docker, LXC e VM. Quais são as diferenças?
 @TODO
 
 ## Como instalar?
