@@ -44,9 +44,6 @@ Cada container deve ter apenas uma responsabilidade, ou seja, executar apenas um
 
 Vale lembrar que, apesar de bastante similar, um container não é uma máquina virtual (VM), inclusive, você pode rodar containers dentro de uma VM.
 
-### Qual a diferença de Container e Máquina Virtual (VM)?
-@TODO
-
 ### Docker, LXC e VM. Quais são as diferenças?
 @TODO
 
