@@ -54,7 +54,7 @@ Enquanto uma VM emula (virtualiza) um computador com acesso a recursos de hardwa
 
 Desta forma é fácil dizer que obrigatoriamente, uma VM é muito mais 'pesada' que um Container. Inclusive, dado ao design da VM é possível possível rodar Containers dentro de dela, e isso é uma prática bastante comum, para isolar ambientes, inclusive é o que normalmente acontece em muitos serviços de cloud.
 
-<div style="border: 1px solid #444; background: #333; color: #fff; padding: 12px 10px;">
+<div style="border: 1px solid #4b5c6b; padding: 12px 10px; background-color: #f4f4f4;">
   <p style="margin-bottom: 8px; font-weight: bold;">🔖 Leitura complementar</p>
   <ul>
     <li>🇺🇸 <a href="https://www.ibm.com/cloud/blog/containers-vs-vms">Containers vs. Virtual Machines (VMs): What’s the Difference?</a></li>
@@ -71,7 +71,7 @@ Acho que a primeira coisa que vocês devem estar se perguntando é: O que é LXC
 
 Para você ter uma ideia, o próprio Docker, originalmente começou como um fork do LXC. Porém seguiu uma abordagem de design um pouco diferente, tendo seu foco na execução de microserviços, e substituindo eventualmente o LXC pela sua implementação própria chamada de `libcontainer`.
 
-<div style="border: 1px solid #444; background: #333; color: #fff; padding: 12px 10px;">
+<div style="border: 1px solid #4b5c6b; padding: 12px 10px; background-color: #f4f4f4;">
   <p style="margin-bottom: 8px; font-weight: bold;">🔖 Leitura complementar</p>
   <ul>
     <li>🇺🇸 <a href="https://earthly.dev/blog/lxc-vs-docker/">LXC vs Docker: Which Container Platform Is Right for You?</a></li>
