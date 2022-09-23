@@ -8,14 +8,16 @@
     <img src="../assets/containers.jpg" />
 </p>
 
+⬅️ [Voltar](../README.md)
+
 # Instalação do Ambiente no Windows
 
 Essa página tem como objetivo auxiliar na instalação de ferramentas de Containers no OS Windows, sendo que nesse tutorial abordaremos duas ferramentas:
 
-- 👍 Podman
-- Docker
+- 👍 [Podman](#instalando-o-podman)
+- [Docker](#instalando-o-docker)
 
-# Instalando a WSL 2 e Requisitos
+## Instalando a WSL 2 e Requisitos
 
 Os ambientes de visualização de containers (em sua grande maioria) são baseados em sistemas Unix (Linux), por isso existe uma incompatibiliade nativa entre os containers e o Windows.
 
@@ -23,11 +25,12 @@ Para solucionar isso, o OS disponibiliza uma ferramenta chamada WSL (Windows Sub
 
 <p align="center">
   <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lV4X43s---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/erssr2kcgbvyv8niqmdi.png"/ alt="Arquitetura da WSL">
+  <em><a href="https://www.reddit.com/r/bashonubuntuonwindows/comments/bna3hq/the_complete_diagram_of_the_wsl2_architecture_as/">Credits: Reddit - r/bashonubuntuonwindows Community</a></em>
 </p>
 
 A diferença entre virtualização e containerização pode ser lida na [página principal](../README.md).
 
-Para instalar a WSL temos os seguintes requisitos mínimos de sistema:
+Para instalar a WSL temos os seguintes **requisitos mínimos** de sistema:
 
 <ol>
   <li>Procesador 64 bit com SLAT</li>
@@ -42,19 +45,24 @@ O Windows Subsystem For Linux permite que você instale uma distribuição Linux
 Para instalar o WSL, que atualmente encontra-se na versão 2, siga os seguintes passos:
 
 <ol>
-  <li>Certifique-se que seu Windows é superior a versão Windows 10 version 200 ou que está utilizando o Windows 11.</li>
+
   <li>Abra o PowerShell ou prompt de comando <strong>com privilégios de administrador</strong></li>
-  <li>Utilize o comando: wsl --install </li>
+  <li>Utilize o comando:</li>
 </ol>
+
+``` 
+PS C:\Users\User> wsl --install
+```
 
 Será executado um script que habilitará a WSL2 e será instalada por padrão uma distribuição Ubuntu.
 Agora, você pode procurar na sua aba de pesquisa por *Ubuntu* ou *WSL* ou digitar na sua linha de comando o comando wsl.
 
 <p align="center">
   <img src="https://mundoconectado.com.br/uploads/2020/09/12/15409/windows-10-linux-wsl-2-update-02.jpg" alt="Comandos da WSL"/>
+  <em><a href="https://mundoconectado.com.br">Créditos: Mundo Conectado</a></em>
 </p>
 
-# Instalando o Podman
+## Instalando o Podman
 
 Com a WSL2 instalada, agora é possível instalar o Podman. Para isso, acesse as [releases](https://github.com/containers/podman/releases) liberadas do Podman, após isso procure no fim da página os arquivos disponibilizados.
 
@@ -66,7 +74,9 @@ Após a instalação, você poderá iniciar a máquina do podman com o seguinte 
 
 A saída deverá ser algo assim:
 
-``` PS C:\Users\User> podman machine init
+``` 
+PS C:\Users\User> podman machine init
+
 Extracting compressed file
 Importing operating system into WSL (this may take 5+ minutes on a new WSL install)...
 Installing packages (this will take a while)...
@@ -91,7 +101,8 @@ Após isso, execute o seguinte comando para startar o podman:
 
 O log deverá ser algo similar a isso:
 
-```PS C:\Users\User> podman machine start
+```
+PS C:\Users\User> podman machine start
 
 Starting machine "podman-machine-default"
 
@@ -111,7 +122,7 @@ Para parar a máquina Podman pode utilizar:
 
 <p align="center"><em>podman machine stop</em></p>
 
-# Instalando o Docker
+## Instalando o Docker
 
 Caso você prefira utilizar a ferramenta Docker, após  ter instalado a WSL2 é necessário seguir os passos:
 
@@ -123,12 +134,17 @@ Esse aplicativo, quando executado, inicia o *Daemon* do docker no WSL2 e exibe u
 
 <p align="center">
   <img src="https://1665891.fs1.hubspotusercontent-na1.net/hubfs/1665891/Picture-1-Docker-Desktop-Dashboard%2C-open-the-Extension-Marketplace-v2.jpg" alt="Dashboard de Imagens do Docker Desktop"/>
+  <em><a href="https://blog.aquasec.com/container-image-scanning-docker-desktop-with-trivy">Créditos: Blog Aquasec - Anais Urlichs</a></em>
+  <br/>
   <br/>
   <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ukEYjhJ---/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zzagw1vphidl5d79kuez.png" alt="Estados dos Containers">
+  <em><a href="https://dev.to/aerabi/docker-desktop-for-linux-on-ubuntu-2204-5a6d">Creditós: Dev.to - Mohammad-Ali A'RÂBI</a></em>
 </p>
 
 Com o Docker Desktop rodando, ele em segundo plano executará a Docker Desktop Engine (o ícone pode ser visualizado nos ícones ocultos) e então permitirá que você execute comandos docker fora da WSL (a partir do prompt por exemplo).
 
-> Para executar qualquer comando docker, é necessário que você esteja com a Engine rodando.
+> **Warning**
+>Para executar qualquer comando docker, é necessário que você esteja com a Engine rodando.
 
-> Vale ressaltar que o Docker Desktop está sob uma licensa de uso Pessoal, ou seja, você pode usá-lo para fins de estudo, desenvolvimento individual, pequenas comunidades open source e pequenos negócios, para mais informações acesse a [página de pricing](https://www.docker.com/pricing/).
+>**Note** 
+>Vale ressaltar que o Docker Desktop está sob uma licença de uso Pessoal, ou seja, você pode usá-lo para fins de estudo, desenvolvimento individual, pequenas comunidades open source e pequenos negócios, para mais informações acesse a [página de pricing](https://www.docker.com/pricing/).
