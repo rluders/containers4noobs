@@ -139,7 +139,6 @@ Não sabe usar Git? [Git4Noobs](https://github.com/DanielHe4rt/git4noobs)
 
 <a href="https://github.com/rluders/containers4noobs/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=rluders/containers4noobs"/>
-  <img src="https://contrib.rocks/image?repo=midhatdrops/containers4noobs"/>
 </a>
 
 <br/><br/>
