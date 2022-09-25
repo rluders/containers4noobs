@@ -25,6 +25,7 @@ Para solucionar isso, o OS disponibiliza uma ferramenta chamada WSL (Windows Sub
 
 <p align="center">
   <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lV4X43s---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/erssr2kcgbvyv8niqmdi.png"/ alt="Arquitetura da WSL">
+  <br/>
   <em><a href="https://www.reddit.com/r/bashonubuntuonwindows/comments/bna3hq/the_complete_diagram_of_the_wsl2_architecture_as/">Credits: Reddit - r/bashonubuntuonwindows Community</a></em>
 </p>
 
@@ -54,6 +55,7 @@ Agora, você pode procurar na sua aba de pesquisa por *Ubuntu* ou *WSL* ou digit
 
 <p align="center">
   <img src="https://mundoconectado.com.br/uploads/2020/09/12/15409/windows-10-linux-wsl-2-update-02.jpg" alt="Comandos da WSL"/>
+  <br/>
   <em><a href="https://mundoconectado.com.br">Créditos: Mundo Conectado</a></em>
 </p>
 
@@ -131,10 +133,12 @@ Esse aplicativo, quando executado, inicia o *Daemon* do docker no WSL2 e exibe u
 
 <p align="center">
   <img src="https://1665891.fs1.hubspotusercontent-na1.net/hubfs/1665891/Picture-1-Docker-Desktop-Dashboard%2C-open-the-Extension-Marketplace-v2.jpg" alt="Dashboard de Imagens do Docker Desktop"/>
+  <br/>
   <em><a href="https://blog.aquasec.com/container-image-scanning-docker-desktop-with-trivy">Créditos: Blog Aquasec - Anais Urlichs</a></em>
 </p>
-<p>
+<p align="center">
   <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ukEYjhJ---/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zzagw1vphidl5d79kuez.png" alt="Estados dos Containers">
+  <br/>
   <em><a href="https://dev.to/aerabi/docker-desktop-for-linux-on-ubuntu-2204-5a6d">Creditós: Dev.to - Mohammad-Ali A'RÂBI</a></em>
 </p>
 
