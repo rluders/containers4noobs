@@ -82,7 +82,7 @@ Para você ter uma ideia, o próprio Docker, originalmente começou como um fork
 
 Tenha em mente que existem diversos concorrentes no mercado, para executar/gerenciar Containers, você pode encontrar [uma lista aqui](https://www.makeuseof.com/best-docker-alternatives/). A minha recomendação aqui fica para o uso do [Podman](https://podman.io/), pois considero ele mais leve e muito mais amigável para quem pretende migrar para Kubernetes.
 
-[Instalação no Windows](/pages/Instalacao%20Windows.md)
+[Instalação no Windows](/pages/install-windows.md)
 
 ## Usando containers
 @TODO
