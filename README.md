@@ -50,9 +50,9 @@ Vale lembrar que, apesar de bastante similar as abordagens são completamente di
 
 No gráfico, é possível compreender de uma forma simplificada a diferença entre as arquiteturas. Enquanto uma VM possuí um sistema operacional convidado (Guess OS) separado para rodar a aplicação, a arquitetura de Containers elimina essa necessidade mas mantendo o isolamento da aplicação.
 
-Enquanto uma VM emula (virtualiza) um computador com acesso a recursos de hardware e roda em cima do Hypervisor, um Container tente apenas a conter a aplicação e suas dependências, compartilhando a maioria das outras coisas com o sistema operacional hospedeiro.
+Enquanto uma VM emula (virtualiza) um computador com acesso a recursos de hardware e roda em cima do Hypervisor, um Container tenta apenas conter a aplicação e suas dependências, compartilhando a maioria das outras coisas com o sistema operacional hospedeiro.
 
-Desta forma é fácil dizer que obrigatoriamente, uma VM é muito mais 'pesada' que um Container. Inclusive, dado ao design da VM é possível possível rodar Containers dentro de dela, e isso é uma prática bastante comum, para isolar ambientes, inclusive é o que normalmente acontece em muitos serviços de cloud.
+Desta forma é fácil dizer que obrigatoriamente, uma VM é muito mais 'pesada' que um Container. Inclusive, dado ao design da VM é possível rodar Containers dentro dela, e isso é uma prática bastante comum para isolar ambientes, inclusive é o que normalmente acontece em muitos serviços de cloud.
 
 <div style="border: 1px solid #4b5c6b; padding: 12px 10px; background-color: #f4f4f4;">
   <p style="margin-bottom: 8px; font-weight: bold;">🔖 Leitura complementar</p>
@@ -63,11 +63,11 @@ Desta forma é fácil dizer que obrigatoriamente, uma VM é muito mais 'pesada' 
 
 ### Docker, LXC. Quais são as diferenças?
 
-É bastante comum as pessoas se referirem a Docker como sinônimo de Containers, mas entretanto, é importante saber que Docker é apenas um dos tipos, ou engine, para execução de Containers. Inclusive ela nem foi a primeira tecnologia para containers.  
+É bastante comum as pessoas se referirem a Docker como sinônimo de Containers, entretanto, é importante saber que Docker é apenas um dos tipos, ou engine, para execução de Containers. Inclusive ela nem foi a primeira tecnologia para essa finalidade.  
 
 Se eu for entrar em detalhes miúdos sobre as diferenças entre Docker e LXC nós vamos ter que nos aprofundar bastante em alguns termos e conceitos que eu não sei se todos vocês estão familiarizados, sendo assim, vou tentar fazer uma abordagem bem simplificada sobre o assunto.
 
-Acho que a primeira coisa que vocês devem estar se perguntando é: O que é LXC? E essa é uma pergunta bem simples de se responder, e eu vou primeiro repetir algo que eu disse lá em cima "Containers são Linux". Dito isso, LXC literalmente significa "Linux Containers". LXC possuem um design muito mais flexível que containers Dockers, e muito mais próximos de uma VM, isso quer dizer que, você pode praticamente instalar qualquer coisa neles. Você pode considerar o LXC como a primeira impelemtação de containers.
+Acho que a primeira coisa que vocês devem estar se perguntando é: O que é LXC? E essa é uma pergunta bem simples de se responder, e eu vou primeiro repetir algo que eu disse lá em cima "Containers são Linux". Dito isso, LXC literalmente significa "Linux Containers". LXC possuem um design muito mais flexível que containers Docker, e muito mais próximos de uma VM, isso quer dizer que, você pode praticamente instalar qualquer coisa neles. Você pode considerar o LXC como a primeira implementação de containers.
 
 Para você ter uma ideia, o próprio Docker, originalmente começou como um fork do LXC. Porém seguiu uma abordagem de design um pouco diferente, tendo seu foco na execução de microserviços, e substituindo eventualmente o LXC pela sua implementação própria chamada de `libcontainer`.
 
@@ -109,7 +109,7 @@ Seleciona abaixo o seu sistema operacional para ir para as instruções de insta
 - 🇺🇸👍 [OpenShift for Developers, Second Edition](https://developers.redhat.com/e-books/openshift-for-developers)
 - 🇺🇸 [Containers Networking: From Docker to Kubernetes](https://www.nginx.com/resources/library/container-networking-docker-kubernetes/)
 - 🇧🇷👍 [Como criar aplicações modernas com containers Linux](https://www.redhat.com/pt-br/resources/building-modern-apps-with-containers-ebook)
-- 🇧🇷💰 [Contrainers com Docker: Do desenvolvimento à producação](https://www.amazon.com.br/Containers-com-Docker-desenvolvimento-produ%C3%A7%C3%A3o-ebook/dp/B019NJB50C)
+- 🇧🇷💰 [Containers com Docker: Do desenvolvimento à produção](https://www.amazon.com.br/Containers-com-Docker-desenvolvimento-produ%C3%A7%C3%A3o-ebook/dp/B019NJB50C)
 
 ## Ferramentas
 
@@ -132,10 +132,12 @@ Seleciona abaixo o seu sistema operacional para ir para as instruções de insta
 Contribuições fazem com que a comunidade opensource seja um lugar incrível para aprender, inspirar e criar. Todas contribuições são extremamente apreciadas.
 
 - Realize um Fork do projeto
-- Crie um branch com a nova feature (git checkout -b feature/sua-feature)
-- Realize o Commit (git commit -m 'Adicionado conteudo brabo')
-- Realize o Push no Branch (git push origin feature/sua-feature)
+- Crie um branch com a nova feature: `git checkout -b feature/sua-feature`
+- Realize o Commit `git commit -m 'Adicionado conteudo brabo'`
+- Realize o Push na Branch: `git push origin feature/sua-feature`
 - Abra um Pull Request
+
+
 
 Não sabe usar Git? [Git4Noobs](https://github.com/DanielHe4rt/git4noobs)
 
