@@ -25,14 +25,12 @@ Essa página tem como objetivo auxiliar na instalação de ferramentas de Contai
 sudo apt-get -y update
 sudo apt-get -y install podman
 ```
-<br>
 
 ### Arch & Manjaro
 
 ```console
 sudo pacman -S podman
 ```
-<br>
 
 ### Fedora
 
@@ -46,7 +44,6 @@ sudo dnf -y copr enable rhcontainerbot/podman4
 sudo dnf -y install podman
 ```
 
-<br>
 
 ### CentOS
 
@@ -54,7 +51,6 @@ sudo dnf -y install podman
 sudo yum -y install podman
 ```
 
-<br>
 
 ### Alpine
 
@@ -62,7 +58,6 @@ sudo yum -y install podman
 sudo apk add podman
 ```
 
-<br>
 
 ### Gentoo
 
@@ -80,7 +75,6 @@ podman --version
 ```
 Esperamos: `podman version 3.4` ou acima.
 
-<br>
 
 ### Buscando por ajuda:
 
@@ -89,7 +83,6 @@ podman --help
 ```
 Irá retornar uma lista de opções disponíveis do podman.
 
-<br>
 
 ### Pesquisando e listando por imagens:
 Podman busca por imagens em registros remotos com algumas keywords simples (Palavras-chave).
@@ -101,7 +94,6 @@ Tente: pesquisar por imagens de containers (ex: fedora, go)
 
 Recorra a [documentação do comando search](https://docs.podman.io/en/v4.0.0/markdown/podman-search.1.html) para mais detalhes.
 
-<br>
 
 ### Baixando imagens:
 
@@ -116,7 +108,6 @@ Após a conclusão do download da imagem, você pode visualizá-las com o comand
 podman images
 ```
 
-<br>
 
 ### Rodando a imagem baixada:
 Aqui irá depender de qual imagem você baixou. O comando `podman run` necessita de alguns parâmetros específicos para cada imagem baixada (ex: porta onde a imagem será disponibilizada, nome do container, como será inicializada a imagem, diretório/volume da imagem).
@@ -130,7 +121,6 @@ podman run -dt -p 8080:80/tcp docker.io/library/httpd
 ```
 **Não repita esse comando caso não esteja rodando o container de 'httpd', ele está parametrizado com as especificações de um container 'httpd'.**
 
-<br>
 
 ### Listando containers em andamento:
 
@@ -165,7 +155,6 @@ podman stop -l
 podman rm -l
 ```
 
-<br>
 
 ### Exemplo completo de um container MongoDB funcional
 
@@ -243,7 +232,6 @@ explicando o comando acima:
 podman ps
 ```
 
-<br>
 
 ## Instalando o Docker
 
