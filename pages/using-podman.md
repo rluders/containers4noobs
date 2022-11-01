@@ -14,7 +14,7 @@
 
 Aqui os comandos tem a intenção de operar sem a necessidade de ter permissões de administrador.
 
-## Buscando por ajuda:
+Sempre que você tiver dúvida, a forma mais direta de acessar o "manual" do podman é usando o comando:
 
 ```sh
 $ podman --help
