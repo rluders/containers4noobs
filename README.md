@@ -90,12 +90,15 @@ Seleciona abaixo o seu sistema operacional para ir para as instruções de insta
 
 ## Usando containers
 
+Nos exemplos abaixo vamos usar os dois *containers runtime* mais utilizados do mercado para exemplificar os seus comandos. O mais bacana aqui é notar a pequena diferença entre eles na sua sintaxe, o que torna simples para usuários do Docker migrarem para o uso do Podman.
+
+### Docker
+
+- [Usando Docker](./pages/using-docker.md)
+
 ### Podman
 
 - [Usando Podman](./pages/using-podman.md)
-
-## Docker
-@TODO
 
 ## Orquestrando containers
 
