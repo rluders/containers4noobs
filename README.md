@@ -113,6 +113,10 @@ Nos exemplos abaixo vamos usar os dois *containers runtime* mais utilizados do m
 
 # Recursos
 
+## Tutoriais / Artigos
+
+- 🇺🇸👍 [https://medium.com/@rluders/run-a-lightweight-local-kubernetes-cluster-with-k3s-1879f8a2b023](https://medium.com/@rluders/run-a-lightweight-local-kubernetes-cluster-with-k3s-1879f8a2b023) por @rluders
+
 ## Livros
 
 - 🇺🇸👍 [OpenShift for Developers, Second Edition](https://developers.redhat.com/e-books/openshift-for-developers)
